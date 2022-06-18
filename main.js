@@ -7,6 +7,7 @@ const app = Vue.createApp({
             image: './assets/images/socks_green.jpg',
             url: 'https://github.com/Code-Pop/Intro-to-Vue-3',
             inventory: 100,
+            inStock: false,
             onSale: false,
             details: [
                 '50% cotton',
